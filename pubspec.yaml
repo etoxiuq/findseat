@@ -22,13 +22,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
-  retrofit: ^2.0.1
+  cupertino_icons: ^1.0.5
+  retrofit: ^3.3.1
   json_annotation: ^4.0.0
   carousel_slider: ^4.0.0
 
   #object builder
-  freezed: ^0.14.1
+  freezed: ^2.2.0
 
   #format date time and other formats
   intl: any
@@ -47,31 +47,32 @@ dev_dependencies:
   # Data
   equatable: ^2.0.0
   meta: ^1.1.6
-  sprintf: "^4.0.0"
-  uuid: "3.0.1"
+  sprintf: ^7.0.0
+  uuid: ^3.0.7
   sqflite: ^2.0.2
   # UI
-  flutter_svg: 1.0.3
+  flutter_svg: ^1.1.6
   google_maps_flutter: ^2.1.1
-  dotted_border: 2.0.0+2
+  dotted_border: ^2.0.0+3
   shimmer: ^2.0.0
 
   # Payment
-  stripe_payment: ^1.1.1
+  flutter_stripe: ^7.0.0
+
   # Auth
-  firebase_core: ^1.1.1
+  firebase_core: ^2.4.1
   google_sign_in: ^5.0.4
-  firebase_auth: ^1.1.4
+  firebase_auth: ^4.2.5
   # Bloc
-  flutter_bloc: ^7.0.1
+  flutter_bloc: ^8.1.1
   dio: ^4.0.0
-  retrofit_generator: ^2.1.0
+  retrofit_generator: ^4.2.0
   build_runner: ^2.0.0
   json_serializable: any
 
   # Unit test
   test:
-  bloc_test: 8.0.1
+  bloc_test: ^9.1.0
 
 
 # For information on the generic Dart part of this file, see the
